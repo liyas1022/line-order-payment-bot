@@ -1,0 +1,159 @@
+{
+  "type": "flex",
+  "altText": "訂單助手：選擇模式、開單、查詢訂單",
+  "contents": {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "md",
+      "contents": [
+        {
+          "type": "text",
+          "text": "LINE 訂單助手",
+          "weight": "bold",
+          "size": "xl",
+          "color": "#173D2A"
+        },
+        {
+          "type": "text",
+          "text": "目前模式：速1",
+          "size": "sm",
+          "color": "#06A66B"
+        },
+        {
+          "type": "text",
+          "text": "選擇通道後輸入 +300，即可建立訂單。\n也可以輸入其他整數金額，例如 +500。",
+          "size": "sm",
+          "wrap": true,
+          "color": "#53615A"
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "button",
+              "style": "primary",
+              "color": "#06C755",
+              "height": "sm",
+              "action": {
+                "type": "postback",
+                "label": "速1",
+                "data": "action=mode&mode=smse1_api",
+                "displayText": "速1"
+              }
+            },
+            {
+              "type": "button",
+              "style": "secondary",
+              "height": "sm",
+              "action": {
+                "type": "postback",
+                "label": "速2",
+                "data": "action=mode&mode=smse3_api",
+                "displayText": "速2"
+              }
+            },
+            {
+              "type": "button",
+              "style": "secondary",
+              "height": "sm",
+              "action": {
+                "type": "postback",
+                "label": "速3",
+                "data": "action=mode&mode=smse4_api",
+                "displayText": "速3"
+              }
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "style": "primary",
+          "color": "#06C755",
+          "action": {
+            "type": "message",
+            "label": "+300 建立訂單",
+            "text": "+300"
+          }
+        },
+        {
+          "type": "button",
+          "style": "secondary",
+          "action": {
+            "type": "postback",
+            "label": "查看我的訂單",
+            "data": "action=recent",
+            "displayText": "查看我的訂單"
+          }
+        },
+        {
+          "type": "text",
+          "text": "模擬付款展示 · 不會產生真實扣款",
+          "size": "xxs",
+          "color": "#87918E",
+          "wrap": true
+        }
+      ]
+    }
+  },
+  "quickReply": {
+    "items": [
+      {
+        "type": "action",
+        "action": {
+          "type": "postback",
+          "label": "速1",
+          "data": "action=mode&mode=smse1_api",
+          "displayText": "速1"
+        }
+      },
+      {
+        "type": "action",
+        "action": {
+          "type": "postback",
+          "label": "速2",
+          "data": "action=mode&mode=smse3_api",
+          "displayText": "速2"
+        }
+      },
+      {
+        "type": "action",
+        "action": {
+          "type": "postback",
+          "label": "速3",
+          "data": "action=mode&mode=smse4_api",
+          "displayText": "速3"
+        }
+      },
+      {
+        "type": "action",
+        "action": {
+          "type": "message",
+          "label": "+300 開單",
+          "text": "+300"
+        }
+      },
+      {
+        "type": "action",
+        "action": {
+          "type": "postback",
+          "label": "我的訂單",
+          "data": "action=recent",
+          "displayText": "我的訂單"
+        }
+      },
+      {
+        "type": "action",
+        "action": {
+          "type": "postback",
+          "label": "操作選單",
+          "data": "action=menu",
+          "displayText": "操作選單"
+        }
+      }
+    ]
+  }
+}

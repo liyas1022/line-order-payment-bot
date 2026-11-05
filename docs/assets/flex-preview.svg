@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660" role="img" aria-labelledby="title desc">
+<title id="title">LINE 訂單助手 Flex Message 卡片結構預覽</title>
+<desc id="desc">由專案範例 JSON 產生的操作選單、未入帳及已付款卡片結構示意。非 LINE 實機截圖。</desc>
+<style>text{font-family:system-ui,"Microsoft JhengHei","Noto Sans TC",sans-serif}</style>
+<rect width="1200" height="660" rx="24" fill="#edf3ef"/>
+<text x="34" y="43" font-size="24" fill="#163c28" font-weight="700" text-anchor="start">LINE Order &amp; Payment Bot</text>
+<text x="34" y="71" font-size="14" fill="#678171" font-weight="400" text-anchor="start">原生 Flex Message 結構預覽 · 範例資料 · 非 LINE 實機截圖</text>
+<text x="34" y="112" font-size="14" fill="#658471" font-weight="600" text-anchor="start">01 / 操作選單</text>
+<rect x="34" y="130" width="352" height="480" rx="16" fill="#ffffff"/>
+<text x="424" y="112" font-size="14" fill="#658471" font-weight="600" text-anchor="start">02 / 未入帳</text>
+<rect x="424" y="130" width="352" height="480" rx="16" fill="#ffffff"/>
+<text x="814" y="112" font-size="14" fill="#658471" font-weight="600" text-anchor="start">03 / 已付款</text>
+<rect x="814" y="130" width="352" height="480" rx="16" fill="#ffffff"/>
+<text x="60" y="179" font-size="24" fill="#173d2a" font-weight="700" text-anchor="start">LINE 訂單助手</text>
+<text x="60" y="214" font-size="15" fill="#06a66b" font-weight="600" text-anchor="start">目前模式：速1</text>
+<text x="60" y="257" font-size="13" fill="#69776e" font-weight="400" text-anchor="start">選擇通道後輸入 +300，即可建立訂單。</text>
+<text x="60" y="281" font-size="13" fill="#69776e" font-weight="400" text-anchor="start">也可以輸入其他整數金額，例如 +500。</text>
+<rect x="60" y="317" width="92" height="43" rx="9" fill="#06c755"/>
+<text x="106.0" y="344" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">速1</text>
+<rect x="164" y="317" width="92" height="43" rx="9" fill="#edf2ef"/>
+<text x="210.0" y="344" font-size="14" fill="#365340" font-weight="600" text-anchor="middle">速2</text>
+<rect x="268" y="317" width="92" height="43" rx="9" fill="#edf2ef"/>
+<text x="314.0" y="344" font-size="14" fill="#365340" font-weight="600" text-anchor="middle">速3</text>
+<rect x="60" y="383" width="300" height="43" rx="9" fill="#06c755"/>
+<text x="210.0" y="410" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">+300 建立訂單</text>
+<rect x="60" y="439" width="300" height="43" rx="9" fill="#edf2ef"/>
+<text x="210.0" y="466" font-size="14" fill="#365340" font-weight="600" text-anchor="middle">查看我的訂單</text>
+<text x="210" y="562" font-size="12" fill="#87918e" font-weight="400" text-anchor="middle">模擬付款展示 · 不會產生真實扣款</text>
+<rect x="424" y="130" width="352" height="88" rx="16" fill="#f0faf4"/>
+<rect x="424" y="190" width="352" height="28" rx="0" fill="#f0faf4"/>
+<text x="450" y="159" font-size="12" fill="#54816a" font-weight="400" text-anchor="start">訂單付款助手 · 展示模式</text>
+<text x="450" y="195" font-size="24" fill="#173d2a" font-weight="700" text-anchor="start">繳費通知</text>
+<text x="450" y="258" font-size="30" fill="#172a20" font-weight="700" text-anchor="start">NT$ 300</text>
+<text x="750" y="255" font-size="15" fill="#C58116" font-weight="700" text-anchor="end">未入帳</text>
+<path d="M450 280h300" stroke="#e4ece6"/>
+<text x="450" y="309" font-size="12" fill="#7c8795" font-weight="400" text-anchor="start">付款通道</text>
+<text x="533" y="309" font-size="13" fill="#253044" font-weight="400" text-anchor="start">速3</text>
+<text x="450" y="337" font-size="12" fill="#7c8795" font-weight="400" text-anchor="start">訂單編號</text>
+<text x="533" y="337" font-size="13" fill="#253044" font-weight="400" text-anchor="start">DEMO-ORDER-300</text>
+<rect x="450" y="356" width="300" height="76" rx="10" fill="#f5f7f9"/>
+<text x="466" y="382" font-size="12" fill="#7c8795" font-weight="400" text-anchor="start">模擬繳費代碼</text>
+<text x="466" y="414" font-size="25" fill="#253044" font-weight="700" text-anchor="start">123456789012</text>
+<text x="450" y="456" font-size="12" fill="#7c8795" font-weight="400" text-anchor="start">繳費期限</text>
+<text x="533" y="456" font-size="13" fill="#253044" font-weight="400" text-anchor="start">建立後 2 小時內</text>
+<rect x="450" y="477" width="300" height="43" rx="9" fill="#06c755"/>
+<text x="600.0" y="504" font-size="14" fill="#ffffff" font-weight="600" text-anchor="middle">模擬付款（不扣款）</text>
+<rect x="450" y="528" width="300" height="43" rx="9" fill="#edf2ef"/>
+<text x="600.0" y="555" font-size="14" fill="#365340" font-weight="600" text-anchor="middle">查詢最新狀態</text>
+<text x="600" y="594" font-size="11" fill="#87918e" font-weight="400" text-anchor="middle">作品集模擬流程，代碼不可實際繳費。</text>
+<rect x="814" y="130" width="352" height="88" rx="16" fill="#f0faf4"/>
+<rect x="814" y="190" width="352" height="28" rx="0" fill="#f0faf4"/>
+<text x="840" y="159" font-size="12" fill="#54816a" font-weight="400" text-anchor="start">訂單付款助手 · 展示模式</text>
+<text x="840" y="195" font-size="24" fill="#173d2a" font-weight="700" text-anchor="start">付款完成</text>
+<text x="840" y="258" font-size="30" fill="#172a20" font-weight="700" text-anchor="start">NT$ 300</text>
+<text x="1140" y="255" font-size="15" fill="#06A66B" font-weight="700" text-anchor="end">已付款</text>
+<path d="M840 280h300" stroke="#e4ece6"/>
+<text x="840" y="309" font-size="12" fill="#7c8795" font-weight="400" text-anchor="start">付款通道</text>
+<text x="923" y="309" font-size="13" fill="#253044" font-weight="400" text-anchor="start">速3</text>
+<text x="840" y="337" font-size="12" fill="#7c8795" font-weight="400" text-anchor="start">訂單編號</text>
+<text x="923" y="337" font-size="13" fill="#253044" font-weight="400" text-anchor="start">DEMO-ORDER-300</text>
+<rect x="840" y="356" width="300" height="76" rx="10" fill="#f5f7f9"/>
+<text x="856" y="382" font-size="12" fill="#7c8795" font-weight="400" text-anchor="start">模擬繳費代碼</text>
+<text x="856" y="414" font-size="25" fill="#253044" font-weight="700" text-anchor="start">123456789012</text>
+<text x="840" y="456" font-size="12" fill="#7c8795" font-weight="400" text-anchor="start">付款時間</text>
+<text x="923" y="456" font-size="13" fill="#253044" font-weight="400" text-anchor="start">模擬付款完成</text>
+<rect x="840" y="477" width="300" height="43" rx="9" fill="#edf2ef"/>
+<text x="990.0" y="504" font-size="14" fill="#365340" font-weight="600" text-anchor="middle">查詢最新狀態</text>
+<text x="990" y="594" font-size="11" fill="#87918e" font-weight="400" text-anchor="middle">作品集模擬流程，代碼不可實際繳費。</text>
+<text x="34" y="641" font-size="13" fill="#69816f" font-weight="400" text-anchor="start">Flask · SQLite · LINE Messaging API · Mock Payment Service</text>
+</svg>

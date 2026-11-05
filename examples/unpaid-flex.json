@@ -1,0 +1,251 @@
+{
+  "type": "flex",
+  "altText": "速3 訂單 NT$ 300｜未入帳",
+  "contents": {
+    "type": "bubble",
+    "size": "mega",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "backgroundColor": "#F0FAF4",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "text",
+          "text": "訂單付款助手 · 展示模式",
+          "size": "xs",
+          "color": "#54816A"
+        },
+        {
+          "type": "text",
+          "text": "繳費通知",
+          "weight": "bold",
+          "size": "xl",
+          "color": "#173D2A"
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "md",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "baseline",
+          "contents": [
+            {
+              "type": "text",
+              "text": "NT$ 300",
+              "weight": "bold",
+              "size": "xxl",
+              "color": "#172A20",
+              "flex": 7
+            },
+            {
+              "type": "text",
+              "text": "未入帳",
+              "weight": "bold",
+              "size": "sm",
+              "color": "#C58116",
+              "align": "end",
+              "flex": 3
+            }
+          ]
+        },
+        {
+          "type": "separator"
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "付款通道",
+              "size": "xs",
+              "color": "#7C8795",
+              "flex": 3
+            },
+            {
+              "type": "text",
+              "text": "速3",
+              "size": "xs",
+              "color": "#253044",
+              "flex": 7,
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "訂單編號",
+              "size": "xs",
+              "color": "#7C8795",
+              "flex": 3
+            },
+            {
+              "type": "text",
+              "text": "DEMO-ORDER-300",
+              "size": "xs",
+              "color": "#253044",
+              "flex": 7,
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "backgroundColor": "#F5F7F9",
+          "paddingAll": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "模擬繳費代碼",
+              "size": "xs",
+              "color": "#7C8795"
+            },
+            {
+              "type": "text",
+              "text": "123456789012",
+              "weight": "bold",
+              "size": "xl",
+              "color": "#253044",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "text",
+              "text": "繳費期限",
+              "size": "xs",
+              "color": "#7C8795",
+              "flex": 3
+            },
+            {
+              "type": "text",
+              "text": "建立後 2 小時內",
+              "size": "xs",
+              "color": "#253044",
+              "flex": 7,
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "✓ 訂單成立  →  等待付款",
+          "size": "xs",
+          "color": "#C58116",
+          "wrap": true
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "style": "primary",
+          "color": "#06C755",
+          "action": {
+            "type": "postback",
+            "label": "模擬付款（不扣款）",
+            "data": "action=pay&order=DEMO-ORDER-300",
+            "displayText": "模擬付款（不扣款）"
+          }
+        },
+        {
+          "type": "button",
+          "style": "secondary",
+          "action": {
+            "type": "postback",
+            "label": "查詢最新狀態",
+            "data": "action=query&order=DEMO-ORDER-300",
+            "displayText": "查詢最新狀態"
+          }
+        },
+        {
+          "type": "text",
+          "text": "作品集模擬流程，代碼不可實際繳費。",
+          "size": "xxs",
+          "color": "#87918E",
+          "wrap": true,
+          "align": "center"
+        }
+      ]
+    }
+  },
+  "quickReply": {
+    "items": [
+      {
+        "type": "action",
+        "action": {
+          "type": "postback",
+          "label": "速1",
+          "data": "action=mode&mode=smse1_api",
+          "displayText": "速1"
+        }
+      },
+      {
+        "type": "action",
+        "action": {
+          "type": "postback",
+          "label": "速2",
+          "data": "action=mode&mode=smse3_api",
+          "displayText": "速2"
+        }
+      },
+      {
+        "type": "action",
+        "action": {
+          "type": "postback",
+          "label": "速3",
+          "data": "action=mode&mode=smse4_api",
+          "displayText": "速3"
+        }
+      },
+      {
+        "type": "action",
+        "action": {
+          "type": "message",
+          "label": "+300 開單",
+          "text": "+300"
+        }
+      },
+      {
+        "type": "action",
+        "action": {
+          "type": "postback",
+          "label": "我的訂單",
+          "data": "action=recent",
+          "displayText": "我的訂單"
+        }
+      },
+      {
+        "type": "action",
+        "action": {
+          "type": "postback",
+          "label": "操作選單",
+          "data": "action=menu",
+          "displayText": "操作選單"
+        }
+      }
+    ]
+  }
+}
